@@ -1,2 +1,2 @@
-# IJC445-data-visualisation-
+# IJC445 - Data Visualisations - PM2.5 in Sheffield and Leeds
 IJC445 Data Visualisation coursework
