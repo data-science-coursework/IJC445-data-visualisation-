@@ -26,4 +26,19 @@ pm25_daily %>%
     +
     theme_minimal()
 
+# Create the seasonal bar chart including all four monitoring sites
+pm25_seasonal_overall %>%
+  mutate(
+    season = factor(season, levels = c("Winter", "Spring", "Summer", "Autumn"))
+  ) %>%
+  ggplot(aes(x = season, y = mean_pm25, fill = site_name)) +
+  geom_col(position = position_dodge(width = 0.8), width = 0.7) +
+  scale_fill_manual(values = site_cols, name = "Monitoring site") +
+  labs( title = "Seasonal mean PM2.5 concentrations",
+    x = "Season",
+    y = expression("PM2.5 ("*mu*"g/m"^3*")"))
+   +
+   theme_minimal()
+
+
 
