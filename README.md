@@ -21,7 +21,7 @@ These visualisations aim to highlight long-term trends, seasonal patterns, short
 - `pm25_analysis.R`  
   Data processing code necessary for creating all visualisations used in this coursework
 
-  - `pm25_visualisations.R`  
+- `pm25_visualisations.R`  
   Code to generate all visualisations used in the coursework.
 
 
