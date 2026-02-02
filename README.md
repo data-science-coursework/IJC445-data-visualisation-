@@ -15,7 +15,7 @@ These visualisations aim to highlight long-term trends, seasonal patterns, short
 
 ## Repository contents
 
-- `data/`  
+- `data`  
   PM2.5 monitoring data (hourly measurements).
 
 - `pm25_analysis.R`  
