@@ -23,3 +23,9 @@ These visualisations aim to highlight long-term trends, seasonal patterns, short
 
 - `data/`  
   PM2.5 monitoring data (hourly measurements).
+
+  ## How to run the analysis
+1. 
+2. Open Rstudio
+3. Run `pm25_analysis.R`
+4. Run `pm25_plots.R` to generate all visualisations
