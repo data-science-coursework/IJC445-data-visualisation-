@@ -1,4 +1,4 @@
-# IJC445 - Data Visualisations - PM2.5 air pollution in Sheffield and Leeds (2017-2025)
+# IJC445 - Data Visualisation - PM2.5 air pollution in Sheffield and Leeds (2017-2025)
 IJC445 Data Visualisation coursework
 
 This repository contains data visualisations and analysis of PM2.5 concentrations across four monitoring sites in Sheffield and Leeds between 2017 to 2025. 
