@@ -5,6 +5,8 @@
 library(tidyverse)
 library(ggplot2)
 library(lubridate)
+
+source("pm25_analysis.R")
   
 # Set a colour palette to be used for all visualisations
   site_cols <- c(
@@ -62,5 +64,20 @@ ggplot(pm25_diurnal,
     y = expression("PM2.5 ("*mu*"g/m"^3*")")
   ) + theme_minimal()
 
+# Create the heatmap of percentage of days in each year exceeding the WHO health-based guideline, including all 4 monitoring sites
+ggplot(pm25_exceedance,
+       aes(x = year, y = site_name, fill = percentage_over_5)) +
+  geom_tile(color = "white") +
+  scale_fill_gradient(
+    name = "% of days > 5 µg/m³",
+    low = "white",
+    high = "red",
+    limits = c(0, 100))
+  +
+  labs(title = "Percentage of days exceeding WHO PM2.5 guideline",
+    x = "Year",
+    y = "Monitoring site")
+   +
+  theme_minimal()
 
 
