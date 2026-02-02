@@ -13,19 +13,20 @@ The repository produces the following visualisations:
 
 These visualisations aim to highlight long-term trends, seasonal patterns, short-term exposure variability and health-based guideline exceedances.
 
-## Repisitory contents
-
-- `pm25_plots.R`  
-  Code to generate all figures used in the coursework.
-
-- `pm25_analysis.R`  
-  Data processing.
+## Repository contents
 
 - `data/`  
   PM2.5 monitoring data (hourly measurements).
+
+- `pm25_analysis.R`  
+  Data processing code necessary for creating all visualisations used in this coursework
+
+  - `pm25_visualisations.R`  
+  Code to generate all visualisations used in the coursework.
+
 
   ## How to run the analysis
 1. 
 2. Open Rstudio
 3. Run `pm25_analysis.R`
-4. Run `pm25_plots.R` to generate all visualisations
+4. Run `pm25_visualisations.R` to generate all visualisations
