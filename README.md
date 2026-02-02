@@ -26,7 +26,7 @@ These visualisations aim to highlight long-term trends, seasonal patterns, short
 
 
   ## How to run the analysis
-1. 
-2. Open Rstudio
+1. Clone or download this repository 
+2. Open Rstudio and set the working directory to the project root.
 3. Run `pm25_analysis.R`
 4. Run `pm25_visualisations.R` to generate all visualisations
